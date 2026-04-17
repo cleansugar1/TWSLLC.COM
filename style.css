@@ -92,7 +92,7 @@ p  { color: var(--mid-brown); }
 
 .brands-section { padding:3.5rem 2.5rem; border-top:1px solid var(--light-tan); background:var(--cream); }
 .brands-label { font-family:var(--sans); font-size:.72rem; letter-spacing:.18em; text-transform:uppercase; color:var(--warm-gray); text-align:center; display:block; margin-bottom:2.5rem; }
-.brands-grid { display:grid; grid-template-columns:repeat(4,1fr); align-items:center; gap:2rem; max-width:800px; margin:0 auto; }
+.brands-grid { display:grid; grid-template-columns:repeat(4,1fr); align-items:center; gap:2rem; max-width:960px; margin:0 auto; }
 .brand-item { display:flex; align-items:center; justify-content:center; padding:.8rem; filter:grayscale(100%); opacity:.6; transition:opacity .3s, filter .3s; }
 .brand-item:hover { opacity:1; filter:grayscale(0%); }
 .brand-item img { max-height:56px; max-width:100%; width:auto; object-fit:contain; }
